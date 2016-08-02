@@ -1,0 +1,18 @@
+[
+  {
+    "CommandName": "helloCommand",
+    "Name": "hello",
+    "Aliases": [
+      "welcome"
+    ],
+    "Description": "Saying hello",
+    "Parameters": [
+      {
+        "Item1": "string",
+        "Item2": "message",
+        "Item3": "Remainder"
+      }
+    ],
+    "FunctionString": "await msg.Channel.SendMessageAsync($\"hello {message}\");"
+  }
+]
